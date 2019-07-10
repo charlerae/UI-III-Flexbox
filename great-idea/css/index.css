@@ -66,16 +66,21 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 
+
+/* making space around the outer most perameter of the page */
 body {
 	margin: 5%;
   }
-  
-  nav {
-	display: inline-block;
-	margin: 20px;
+
+  /* adding navigation bar horizontally across top, spacing buttons out, and removing underlines */
+  .greatIdea nav {
+	display: flex;
+	/* margin: 20px; */
+	justify-content: space-evenly;
 	text-decoration: none;
   }
   
+
   nav a {
 	background-color: rgb(170, 192, 170); 
 	border-radius: 2px; 
@@ -84,9 +89,15 @@ body {
 	color: gray;
 	text-decoration: none;
   }
+
+  /* adding logo image to right of nav */
+  .greatIdea {
+	  display: flex;
+	  justify-content: space-around;
+	  align-items: center;
+  }
   
-  
-  
+  /* call to action section at top of page with img and get started button */
   .top {
 	margin-top: 3%;
   }
@@ -120,16 +131,18 @@ body {
 	font-size: 17px;
   }
   
+  /* circular code image at top of page */
   .snippet {
 	margin-left: 5%;
   }
   
+  /* all grammerical paragraphs on page */
   .paragraphs {
-	/* display: inline-block; */
 	width: 45%;
 	margin: 2%;
   }
   
+  /* paragraph sections above middle image */
   .topText {
 	height: 150px;
 	margin-top: 5%;
@@ -141,10 +154,12 @@ body {
 	margin: 1%;
   }
   
+  /* rectangular image in the middle of page */
   .middle-img {
 	margin-bottom: 2%;
   }
   
+  /* paragraph sections below middle image */
   .bottomText {
 	display: flex;
 	padding: 2%;
@@ -155,3 +170,18 @@ body {
   footer {
 	  text-align: center;
   }
+
+  /* Services Page Styling */
+
+
+  /* nav and image at bottom of page */
+  .bottomInfo {
+	  display: flex;
+
+  }
+  
+  /* nav bar at bottom of page */
+  .list {
+	  background-color: peach;
+  }
+
