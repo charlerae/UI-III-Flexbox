@@ -77,11 +77,12 @@ body {
   }
   
   nav a {
-	background-color: rgb(171, 223, 171); 
+	background-color: rgb(170, 192, 170); 
 	border-radius: 2px; 
 	padding: 4px;
 	margin: 20px;
 	color: gray;
+	text-decoration: none;
   }
   
   
@@ -124,15 +125,16 @@ body {
   }
   
   .paragraphs {
-	display: inline-block;
+	/* display: inline-block; */
 	width: 45%;
+	margin: 2%;
   }
   
   .topText {
 	height: 150px;
-	margin-top: 3%;
+	margin-top: 5%;
 	border-top: 1px solid black;
-	box-align: center;
+	display: flex;
   } 
   
   .topText .paragraphs {
@@ -144,8 +146,12 @@ body {
   }
   
   .bottomText {
-	box-align: center;
+	display: flex;
 	padding: 2%;
-	margin-bottom: 3px;
+	margin-bottom: 3%;
 	border-bottom: 1px solid black;
+  }
+
+  footer {
+	  text-align: center;
   }
