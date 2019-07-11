@@ -174,14 +174,24 @@ body {
   /* Services Page Styling */
 
 
-  /* nav and image at bottom of page */
-  .bottomInfo {
-	  display: flex;
+  .services {
+	display: flex;
+	flex-direction: column;
+  }
 
+  /*  */
+  .boxes {
+	background-color: rgb(240, 240, 240);
+	border-radius: 2%;
+	border-color: 2px solid black
+	padding: 4%;
+	margin: 2%;
+	
+  }
+
+  /*  */
+  .row1 , .row2 , .row3{
+	display: flex;
+	margin: 2%;
   }
   
-  /* nav bar at bottom of page */
-  .list {
-	  background-color: peach;
-  }
-
