@@ -82,7 +82,7 @@ body {
   
 
   nav a {
-	background-color: rgb(170, 192, 170); 
+	background-color: rgb(229, 233, 229); 
 	border-radius: 2px; 
 	padding: 4px;
 	margin: 20px;
@@ -173,20 +173,28 @@ body {
 
   /* Services Page Styling */
 
+.services-header-img {
+	margin-bottom: 2%;
+}
+
+h1 {
+	font-size: 25px;
+}
 
   .services {
+	margin: 3%;
 	display: flex;
 	flex-direction: column;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
   }
 
   /*  */
   .boxes {
 	background-color: rgb(240, 240, 240);
-	border-radius: 2%;
-	border-color: 2px solid black
-	padding: 4%;
+	border-color: 5px solid black;
+	padding: 2%;
 	margin: 2%;
-	
   }
 
   /*  */
@@ -195,3 +203,30 @@ body {
 	margin: 2%;
   }
   
+  button {
+	border-radius: 5px;
+	font-size: 20%;
+	margin-top: 5%;
+  }
+
+  .bottomInfo {
+	display: flex;
+  }
+
+  .facts {
+	margin: 3%;
+	padding: 1%;
+  }
+
+  ul {
+	margin-top: 3%;
+	list-style: square inside;
+  }
+
+  li {
+	margin: 3%;
+  }
+
+  .bottomInfo img {
+	padding: 5%;
+  }
