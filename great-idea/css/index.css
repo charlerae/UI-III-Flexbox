@@ -69,7 +69,8 @@ h1, h2, h3, h4, h5 {
 
 /* making space around the outer most perameter of the page */
 body {
-	margin: 5%;
+	margin: 0 auto;
+	width: 1000px;
   }
 
   /* adding navigation bar horizontally across top, spacing buttons out, and removing underlines */
