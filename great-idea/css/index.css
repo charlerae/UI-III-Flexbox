@@ -64,3 +64,169 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+/* making space around the outer most perameter of the page */
+body {
+	margin: 5%;
+  }
+
+  /* adding navigation bar horizontally across top, spacing buttons out, and removing underlines */
+  .greatIdea nav {
+	display: flex;
+	/* margin: 20px; */
+	justify-content: space-evenly;
+	text-decoration: none;
+  }
+  
+
+  nav a {
+	background-color: rgb(229, 233, 229); 
+	border-radius: 2px; 
+	padding: 4px;
+	margin: 20px;
+	color: gray;
+	text-decoration: none;
+  }
+
+  /* adding logo image to right of nav */
+  .greatIdea {
+	  display: flex;
+	  justify-content: space-around;
+	  align-items: center;
+  }
+  
+  /* call to action section at top of page with img and get started button */
+  .top {
+	margin-top: 3%;
+  }
+  
+  h2 {
+	margin-top: 10px;  
+  }
+  
+  .main {
+	display: flex;
+  }
+
+  .innovation {	
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-top: 10%;
+	align-items: center;
+  }
+
+  .innovation h1 {
+	  font-size: 75px;
+	  text-align: center;
+  }
+
+  button {
+	border-radius: 3px;
+	padding: 6px 15px;
+	width: 35%;
+	align-items: center;
+	font-size: 17px;
+  }
+  
+  /* circular code image at top of page */
+  .snippet {
+	margin-left: 5%;
+  }
+  
+  /* all grammerical paragraphs on page */
+  .paragraphs {
+	width: 45%;
+	margin: 2%;
+  }
+  
+  /* paragraph sections above middle image */
+  .topText {
+	height: 150px;
+	margin-top: 5%;
+	border-top: 1px solid black;
+	display: flex;
+  } 
+  
+  .topText .paragraphs {
+	margin: 1%;
+  }
+  
+  /* rectangular image in the middle of page */
+  .middle-img {
+	margin-bottom: 2%;
+  }
+  
+  /* paragraph sections below middle image */
+  .bottomText {
+	display: flex;
+	padding: 2%;
+	margin-bottom: 3%;
+	border-bottom: 1px solid black;
+  }
+
+  footer {
+	  text-align: center;
+  }
+
+  /* Services Page Styling */
+
+.services-header-img {
+	margin-bottom: 2%;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+  .services {
+	margin: 3%;
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+  }
+
+  /*  */
+  .boxes {
+	background-color: rgb(240, 240, 240);
+	border-color: 5px solid black;
+	padding: 2%;
+	margin: 2%;
+  }
+
+  /*  */
+  .row1 , .row2 , .row3{
+	display: flex;
+	margin: 2%;
+  }
+  
+  button {
+	border-radius: 5px;
+	font-size: 20%;
+	margin-top: 5%;
+  }
+
+  .bottomInfo {
+	display: flex;
+  }
+
+  .facts {
+	margin: 3%;
+	padding: 1%;
+  }
+
+  ul {
+	margin-top: 3%;
+	list-style: square inside;
+  }
+
+  li {
+	margin: 3%;
+  }
+
+  .bottomInfo img {
+	padding: 5%;
+  }
